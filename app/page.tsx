@@ -28,9 +28,9 @@ export default function Home() {
       if (difference >= 0) {
         setDateDifference(difference);
       } else {
-        // Gérer le cas où la différence est négative (erreur)
-        setDateDifference(null); // Réinitialise la valeur de dateDifference à null
-        // Affiche un message d'erreur à l'utilisateur
+        //  Handle the case where the difference is negative
+        setDateDifference(null); //  init dateDifference to null
+        // Display error message
         alert('La date de fin doit être superieur à la date de début.');
       }
     }
